@@ -1,0 +1,146 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+  background: #005ad5;
+  padding: 48px 98px 372px 135px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: right;
+  gap: 98px;
+}
+
+.logo {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 247px;
+}
+
+.menu-link {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-with {
+  max-width: 495px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-title {
+  font-size: 43.421px;
+  font-weight: 600;
+  padding-bottom: 38px;
+}
+
+.about-text {
+  font-size: 14.589px;
+  font-weight: 400;
+  padding-bottom: 48px;
+}
+
+.about-btn {
+  border-radius: 10px;
+  background: #fff;
+  color: #005ad5;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 32px;
+}
+
+.about-img {
+  max-width: 613px;
+}
+
+.offer {
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 125px 120px;
+  font-family: "Poppins", sans-serif;
+  color: #121212;
+  text-align: center;
+  background: #f4f6f7;
+}
+
+.offer-title {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.offer-text {
+  color: var(--text2, #6c6c6c);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 62px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 166px;
+}
+
+.card-description {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+  padding: 40px 23px;
+}
+
+.card-img {
+  margin-bottom: 24px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.card-text {
+  color: var(--text, #121212);
+  font-size: 14px;
+  margin-bottom: 32px;
+  max-width: 243px;
+}
+
+.card-btn {
+  border-radius: 10px;
+  border: 2px solid #005ad5;
+  color: #005ad5;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 20px;
+}
+
+.polygon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1700px;
+}
