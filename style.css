@@ -76,6 +76,13 @@ body {
   max-width: 613px;
 }
 
+.polygon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1700px;
+}
+
 .offer {
   max-width: 1440px;
   width: 100%;
@@ -138,9 +145,123 @@ body {
   padding: 13px 20px;
 }
 
-.polygon {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 1700px;
+.info {
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 216px 106px 228px 105px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-description {
+  text-align: left;
+}
+
+.info-text {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.info-title {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 51px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.info-text2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #6c6c6c;
+  max-width: 443px;
+}
+
+.info-img {
+  margin-bottom: 264px;
+}
+
+.info-margin {
+  margin-bottom: 309px;
+}
+
+.contact {
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+  background: #f4f6f7;
+  font-family: "Poppins", sans-serif;
+  padding: 134px 255px 173px 255px;
+}
+
+.contact-title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #6c6c6c;
+  margin-bottom: 102px;
+}
+
+.input {
+  padding-bottom: 29px;
+}
+
+.text-style {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #00000080;
+  border: 6px solid #005ad5;
+}
+
+.imie-email {
+  display: flex;
+  gap: 30px;
+}
+
+.imie {
+  max-width: 451px;
+  padding: 26px 558px 26px 90px;
+}
+
+.email {
+  max-width: 451px;
+  padding: 27px 558px 26px 90px;
+}
+
+.temat {
+  max-width: 930px;
+  padding: 26px 666px 26px 90px;
+}
+
+.tresc {
+  max-width: 930px;
+  padding: 41px 768px 323px 90px;
+}
+
+.contact-btn {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff;
+  background: #005ad5;
+  padding: 30px 119px;
+  margin: 29px 555px 173px 555px;
 }
